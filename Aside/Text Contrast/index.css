@@ -19,21 +19,27 @@ main {
 }
 .red {
     background-color: #ff0000;
+    color: #000000;
 }
 .orange {
     background-color: #ffa500;
+    color: #000000;
 }
 .yellow {
     background-color: #ffff00;
+    color: #000000;
 }
 .green {
     background-color: #129a0d;
+    color: #000000;
 }
 .blue {
     background-color: #0000ff;
+    color: #FFFFFF;
 }
 .purple {
     background-color: #800080;
+    color: #FFFFFF;
 }
 
 /*
