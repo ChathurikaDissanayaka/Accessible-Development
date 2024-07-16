@@ -37,16 +37,15 @@
                     <label for="email">Email</label>
                     <input class="contact-input" id="email" type="text" placeholder="sherlock.holmes@gmail.com" />
                     <div class="radio-container">
-                        <p>Do you have cats?</p>
-                        <label for="yes">Yes</label>
-                        <input class="contact-radio" id="yes" type="radio" name="cats" />
-                        <label for="no">No</label>
-                        <input class="contact-radio" id="no" type="radio" name="cats" />
+                        <fieldset>
+                            <legend>Do you have cats?</legend>
+                            <label for="yes">Yes</label>
+                            <input class="contact-radio" id="yes" type="radio" name="cats" />
+                            <label for="no">No</label>
+                            <input class="contact-radio" id="no" type="radio" name="cats" />
+                        </fieldset>
                     </div>
                     <button class="contact-submit-button" type="button">Send message 🎉</button>
-                    
-                    <button type="button">Click Me</button>
-                    <div role="button" tabindex="0" aria-label="Click Me" onclick="customButtonClickHandler();">Click Me</div>
                 </form>
                 <img class="contact-image" src="images/drone-contact.png" alt="A woman seeing a drone approaching." />
             </section>
