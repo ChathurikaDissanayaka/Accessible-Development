@@ -37,18 +37,18 @@
                     <label for="email">Email</label>
                     <input class="contact-input" id="email" type="text" placeholder="sherlock.holmes@gmail.com" />
                     <div class="radio-container">
-                        <fieldset>
-                            <legend>Do you have cats?</legend>
-                            <label for="yes">Yes</label>
-                            <input class="contact-radio" id="yes" type="radio" name="cats" />
-                            <label for="no">No</label>
-                            <input class="contact-radio" id="no" type="radio" name="cats" />
-                        </fieldset>
+                        <p>Do you have cats?</p>
+                        <label for="yes">Yes</label>
+                        <input class="contact-radio" id="yes" type="radio" name="cats" />
+                        <label for="no">No</label>
+                        <input class="contact-radio" id="no" type="radio" name="cats" />
                     </div>
-                    <button class="contact-submit-button" type="button">Send message 🎉</button>
+                    <span class="popover-message" id="popoverMessage">⚠️ Complete the form to send the message.</span>
+                    <button class="contact-submit-button" type="submit" disabled id="submitButton">Send message 🎉</button>
                 </form>
                 <img class="contact-image" src="images/drone-contact.png" alt="A woman seeing a drone approaching." />
             </section>
         </main>
+        <script src="index.js"></script>
     </body>
 </html>
